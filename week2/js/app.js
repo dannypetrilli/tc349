@@ -1,3 +1,3 @@
 function hello() {
-	alert(navigator.appVersion);	
+	alert(navigator.appName);	
 }
