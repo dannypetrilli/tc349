@@ -1,0 +1,5 @@
+At first glance at the Heroku I was very confused. Upon a few minutes on the site I started to get a feel for it. The color scheme works extremely well. When a tab is selected it is highlighted yellow which works really well.
+
+The site really is confusing. I gathered that the site is dedicated to app development but it isn't geared towards just anyone. The user must know exactly what they need when using the site. For that type of user the site seems like it is very useful, yet I am still partially confused by it.
+
+I chose the single layout for my personal site. I felt that the single layout fit best for the flow of the site.
