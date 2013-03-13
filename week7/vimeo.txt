@@ -1,0 +1,3 @@
+Upon first arrival at vimeo.com the user is presented with a box to sign up for an account or to sign into their existing account. The user can either sign up with their email or through their Facebook account. Towards the bottom of the page there are the "Staff Picked" videos.
+
+Honestly, the homepage seems cluttered. I love the Vimeo service and that they provide a good service for users to host videos but the homepage seems like there is too much going on. Part of the clutter comes from the "What can you do here?" section which describes the features of the site. I feel like it should be broken up into different pages or in a cleaner fashion on the same page. I do think that Vimeo is a great service though.
