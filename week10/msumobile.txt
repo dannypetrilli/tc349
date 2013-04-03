@@ -1,0 +1,3 @@
+The MSU Mobile site is aesthetically pleasing. Each tab is large enough that the page is easily navigable. The main page is also customizable so the user can decide which content is relevant to their needs. Even the pages linked to the tabs on the homepage are catered for mobile.
+
+The main problem I find with mobile sites is that if the user wants to user the actual website on a mobile device and a mobile site exists for that particular site then the device will go directly to the mobile site. The main benefit of MSU's mobile site is that it offers the option to revert to the full site.

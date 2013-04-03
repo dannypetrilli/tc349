@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="ratchet.css">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+    <!-- Intro paragraph styles. Delete once you start using this page -->
+    <style type="text/css">
+        .welcome {
+          line-height: 1.5;
+          color: #555;
+        }
+    </style>
+
+  </head>
+  <body>
+
+  <!-- Make sure all your bars are the first things in your <body> -->
+  </head>
+  <body>
+	<header class="bar-title">
+	  <a href="#myPopover">
+	    <h1 class="title">My Great Mobile Site</h1>
+	  </a>
+	</header>
+
+	<div id="myPopover" class="popover">
+	  <header class="popover-header">
+	    <a class="button" href="#">
+	      Previous
+	    </a>
+	    <h3 class="title">Navigation</h3>
+	    <a class="button" href="#">
+	      Next
+	    </a>
+	  </header>
+	  <ul class="list">
+	    <li>Nav1</li>
+	    <li>Nav2</li>
+	    <li>Nav3</li>
+	    <li>Nav4</li>
+	  </ul>
+	</div>
+	
+  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  <div class="content">
+	<ul class="segmented-controller">
+	  <li class="active">
+	    <a href="#item1">Home</a>
+	  </li>
+	  <li>
+	    <a href="#item2">Link</a>
+	  </li>
+	  <li>
+	    <a href="#item3">Link</a>
+	  </li>
+	</ul>
+		<span class="count">Home</span>
+		<span class="count-main">Library</span>
+		<span class="count-positive">Data</span>
+	<ul class="inset list">
+	  <li id="item1" class="segmented-controller-item active">
+	    Email
+	  </li>
+	</ul>
+	<span class="count">1</span>
+	<span class="count-main">2</span>
+	<span class="count-positive">3</span>
+    <div class="content-padded">
+		<h2>This is Content</h2>
+      <p class="welcome"><strong>Lorem ipsum dolor sit amet</strong>, <small>consectetur adipiscing elit</small>. Pellentesque a purus velit. Quisque sollicitudin urna sit amet purus feugiat et vehicula nulla tristique. Suspendisse tristique pretium tortor, quis posuere lorem vestibulum ut. Vestibulum magna nisl, scelerisque id interdum id, scelerisque vitae sem. Integer eu lectus dolor, fringilla porta metus. Etiam at sem a erat rhoncus faucibus at id dolor. Vestibulum vitae ornare massa. Morbi commodo, massa in sagittis bibendum, mi eros adipiscing metus, vel consequat neque arcu id dui. Curabitur quis nisl non enim congue cursus.</p>
+    </div>
+	<form>
+	  <input type="text" placeholder="Full name">
+	  <input type="search" placeholder="Search">
+	  <textarea rows="5"></textarea>
+	  <a class="button button-block">Choose existing</a>
+	</form>
+
+	<div class="toggle active">
+	  <div class="toggle-handle"></div>
+	</div>
+	<div class="toggle">
+	  <div class="toggle-handle"></div>
+	</div>
+  </div>
+
+  </body>
+</html>
