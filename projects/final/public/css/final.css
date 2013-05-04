@@ -2,7 +2,7 @@ body {
 	background: url(../img/natural_paper.png);
 	border-top: 5px solid #bf1e2d;
 	margin: 0;
-	font-family: "Helvetica", sans-serif;
+	font-family: "Futura", sans-serif;
 	line-height: 1.4em;
 }
 
@@ -11,12 +11,12 @@ h1, h2, h3 {
 }
 
 header h1 {
-	background: url(../img/lutitle.png) no-repeat center top;
-	float: left;
+	background: url(../img/luTitle.png) no-repeat center top;
 	height: 100px;
-	width: 250px;
-	text-indent: -9000px;
+	width: 300px;
+	text-indent: -9999px;
 	margin: 20px 0 20px 0;
+	padding-left: 20px;
 	color: #fff;
 }
 
@@ -25,26 +25,33 @@ h2 {
 }
 
 h3 {
-	margin-bottom: 5px;
 	font-weight: normal;
-	padding-top: 10px;
+	padding-top: 15px;
 	color: #424242;
 }
 
 .container {
-	background: #fff;
 	max-width: 850px;
 	width: 100%;
 	margin: 0 auto;
-	box-shadow: 0 0 10px #424242;
 }
 
 #content {
 	float: left;
 	border-top: 10px solid #222;
-	padding: 15px;
-	background: #fff url(images/yum.jpg) no-repeat center top;
 	box-shadow: 0 0 10px #424242;
+	padding: 10px;
+}
+
+#focus {
+	width: 60%;
+	margin-right: 5%;
+	float: left;
+}
+
+aside {
+	width: 35%;
+	float: right;
 }
 
 /* Navigation */
@@ -60,6 +67,7 @@ header .nav a {
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
+	box-shadow: 0 0 10px #424242;
 }
 
 header .nav {
@@ -68,8 +76,19 @@ header .nav {
 	padding: 0;
 }
 
-article {
-	margin: 10px 0 0 0;
+.video-contain {
+	position: relative;
+	padding-bottom: 55%;
+	padding-top: 25px; 
+	height: 0; 
+}
+
+.video-contain iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 @media (max-width: 320px) {
@@ -80,10 +99,7 @@ article {
 	h1 {
 		width: 100%;
 	}
-	article {
-		margin: 5px 0 0 0;
-	}
-	header .nav, #content {
+	header .nav, #focus, aside {
 		float: left;
 		clear: left;
 		margin: 0 0 10px;
@@ -100,28 +116,13 @@ article {
 		padding: 10px;
 		text-align: center;
 	}
-	video {
-		width: 100%;
-		height: inherit;
-	}
 }
 
-/* Banner */
+/* LU Logo on homepage */
 #banner {
 	float: left;
-	margin-bottom: 20px;
 	width: 100%;
 }
 #banner img {
 	width: 100%;
 }
-
-/*
-
-hgroup {
-	color: #fff;
-	margin: 0 0 40px 0;
-	font-family: "droid-sans",sans-serif;
-}
-
-*/
